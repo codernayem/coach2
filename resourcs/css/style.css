@@ -1,0 +1,96 @@
+/*=====basic setup====*/
+/*===font==*/
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,500,600i,800,900&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html{
+	font-family: 'Playfair Display', serif;
+	
+	text-rendering: optimizeLegibility;
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+body{
+	font-size: 1.6rem;
+	background: #fff;
+	color: #000;
+	line-height: 1.5;
+}
+/*===Reusable component====*/
+.row{
+	max-width: 114rem;
+	text-align: center;
+	margin: 0 auto;
+	
+}
+a{
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+}
+h1{
+	font-size: 4.5rem;
+}
+/*=====header section====*/
+.hero{
+	background: #FFDD40;
+	height: 80vh;
+}
+.hero .logo{
+	float: left;
+	font-size: 4rem;
+	color: #000;
+}
+.hero .coach{
+	color: aqua;
+}
+.hero .hero-text{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: left;
+}
+.hero .con-btn{
+	color: chocolate;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
